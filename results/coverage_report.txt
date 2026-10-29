@@ -1,0 +1,38 @@
+================================================================================
+  GCC GCOV (-fprofile-arcs -ftest-coverage) CODE COVERAGE REPORT (AS9100C QA)
+================================================================================
+
+--- Module: src/crc32.c ---
+File 'src/crc32.c'
+Lines executed:100.00% of 39
+Branches executed:100.00% of 16
+Taken at least once:100.00% of 16
+Calls executed:100.00% of 2
+Creating 'crc32.c.gcov'
+
+Lines executed:100.00% of 39
+
+--- Module: src/flash_hal.c ---
+File 'src/flash_hal.c'
+Lines executed:100.00% of 50
+Branches executed:100.00% of 36
+Taken at least once:88.89% of 36
+Calls executed:100.00% of 2
+Creating 'flash_hal.c.gcov'
+
+Lines executed:100.00% of 50
+
+--- Module: src/bootloader_fsm.c ---
+File 'src/bootloader_fsm.c'
+Lines executed:99.28% of 139
+Branches executed:100.00% of 67
+Taken at least once:91.04% of 67
+Calls executed:96.30% of 27
+Creating 'bootloader_fsm.c.gcov'
+
+Lines executed:99.28% of 139
+
+================================================================================
+  TOTAL STATEMENT COVERAGE : 99.56% (227/228 executable lines)
+  TOTAL BRANCH EXECUTION   : 100.00% (119/119 branches executed)
+================================================================================
